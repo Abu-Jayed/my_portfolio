@@ -3,6 +3,7 @@ import ScrollDown from './ScrollDown';
 import Social from './Social';
 import './home.css'
 
+
 const Home = () => {
     return (
         <section className="home section" id="home">

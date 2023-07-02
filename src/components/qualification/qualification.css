@@ -21,12 +21,19 @@
 }
 
 .qualification__icon{
-  font-size: 1.8rem;
+  /* font-size: 1.8rem; */
   margin-right: var(--mb-0-25);
+}
+
+.workNow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .qualification__active{
   color: var(--title-color-dark);
+  text-decoration: underline;
 }
 
 .qualification__sections{

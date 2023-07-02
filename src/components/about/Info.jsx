@@ -13,7 +13,7 @@ const Info = () => {
 
       <div className="about__box">
         <i className="about__icon">
-        <box-icon name='briefcase-alt about__icon'></box-icon>
+        <box-icon name='briefcase-alt'></box-icon>
         </i>
         <h3 className="about__title">Completed</h3>
         <span className="about__subtitle">27+ Projects</span>
@@ -21,7 +21,7 @@ const Info = () => {
 
       <div className="about__box">
         <i className="about__icon">
-      <box-icon name='support about__icon'></box-icon>
+      <box-icon name='support'></box-icon>
         </i>
         <h3 className="about__title">Support</h3>
         <span className="about__subtitle">Online 24/7</span>
