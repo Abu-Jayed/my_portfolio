@@ -13,7 +13,7 @@ const Qualification = () => {
       <h2 className="section__title">Qualification</h2>
       <span className="section__subtitle">My personal journey</span>
 
-      <div className="qualification__container container">
+      <div className="qualification__container md:w-auto w-[370px] container">
         <div
           className="qualification__tabs">
           <div
@@ -46,7 +46,7 @@ const Qualification = () => {
           </div>
         </div>
 
-        <div className="qualification__sections">
+        <div className="qualification__sections md:w-auto w-[370px]">
           <div className={toggleState === 1 ? "qualification__content qualification__content-active":"qualification__content"}>
 
             {/* <div className="qualification__data">

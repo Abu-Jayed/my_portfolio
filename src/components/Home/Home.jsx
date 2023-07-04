@@ -7,8 +7,8 @@ import './home.css'
 const Home = () => {
     return (
         <section className="home section" id="home">
-            <div className='home__container container cgrid'>
-                <div className='home__content cgrid'>
+            <div className='home__container w-[400px] md:w-auto container cgrid'>
+                <div className='home__content  cgrid'>
                     <Social></Social>
                     <div className=" home__img"></div>
                     <Data></Data>

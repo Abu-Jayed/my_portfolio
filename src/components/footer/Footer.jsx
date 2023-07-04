@@ -3,8 +3,8 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer__container container">
-        <h1 className="footer__title">Smith</h1>
+      <div className="footer__container container md:w-auto max-w-[360px]">
+        <h1 className="footer__title">Abu Jayed</h1>
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link"></a>

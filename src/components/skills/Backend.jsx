@@ -1,7 +1,7 @@
 
 const Backend = () => {
   return (
-    <div className="skills__content">
+    <div className="skills__content md:w-auto w-[400px]">
       <h2 className="skills__title">
 Backend Developer
       </h2>

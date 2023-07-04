@@ -36,12 +36,13 @@ const Works = () => {
         })
       }
     </div>
-    <div className="work__container container cgrid">
-{
+    <div className="work__container md:w-auto w-[400px] container cgrid">
+{/* {
   projects.map((item)=>{
     return <WorkItems key={item.id} item={item}></WorkItems>
   })
-}
+} */}
+<WorkItems></WorkItems>
     </div>
     </>
   );

@@ -6,12 +6,12 @@ const Contact = () => {
       <h2 className="section__title">Get in touch</h2>
       <span className="section__subtitle">Contact me</span>
 
-      <div className="contact__container container cgrid">
-        <div className="contact__content">
+      <div className="contact__container md:w-auto w-[370px] container cgrid">
+        <div className="contact__content md:w-auto w-[370px]">
           <h3 className="contact__title">Talk to me</h3>
 
-          <div className="contact__info">
-            <div className="contact__card">
+          <div className="contact__info md:w-auto w-[370px]">
+            <div className="contact__card md:w-auto w-[370px]">
               <i className="contact__card-icon">
                 <box-icon name='mail-send'></box-icon>
               </i>
@@ -59,7 +59,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="contact__content">
+        <div className="contact__content md:w-auto w-380px">
           <h3 className="contact__title">Write me your project</h3>
           <form className="contact__form">
             <div className="contact__form-div">

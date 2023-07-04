@@ -9,11 +9,11 @@ const About = () => {
     <section className="section about" id="about">
       <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">My Introduction</span>
-      <div className="about__container container cgrid">
+      <div className="about__container md:w-auto w-[370px] container cgrid">
         <img src={aboutImg} className='about__img' alt="" />
         <div className="about__data">
           <Info></Info>
-          <p className="about__description">As MERN stack developer, I create web page with UI/UX user experience, I have year of experience and many clients are happy with the projcet carried out</p>
+          <p className="about__description md:w-auto w-[400px]">As MERN stack developer, I create web page with UI/UX user experience, I have year of experience and many clients are happy with the projcet carried out</p>
           {/* <a download="" href={resume} className="button button--flex">Download Resume
           <svg
                 className="button__icon"

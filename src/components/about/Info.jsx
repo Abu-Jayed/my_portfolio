@@ -2,7 +2,7 @@ import 'boxicons'
 
 const Info = () => {
   return (
-    <div className="about__info cgrid">
+    <div className="about__info w-[400px] md:w-auto cgrid">
       <div className="about__box">
         <i className="about__icon">
         <box-icon name='award'></box-icon>
